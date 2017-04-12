@@ -1,0 +1,22 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"Color Highlighter",
+		"Comment-Snippets",
+		"Emmet",
+		"Oceanic Next Color Scheme",
+		"Oceanic Next Italic Color Scheme",
+		"Package Control",
+		"PlainNotes",
+		"Stylus",
+		"Stylus Clean Completions",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"Wallaby"
+	]
+}

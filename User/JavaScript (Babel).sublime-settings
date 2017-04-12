@@ -1,0 +1,9 @@
+{
+	"extensions":
+	[
+		"js",
+		"jsx"
+	],
+	"tab_size": 2,
+	"convert_tabs_to_spaces": true
+}
