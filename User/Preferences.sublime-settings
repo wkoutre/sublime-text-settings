@@ -63,7 +63,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Color Scheme - Wallaby/Oceanic Next Italic (SL).tmTheme",
+	"color_scheme": "Packages/Color Scheme - Wallaby/Oceanic Next.tmTheme",
 	"detect_indentation": false,
 	"draw_centered": false,
 	"draw_minimap_border": true,
@@ -126,7 +126,6 @@
 		"Sublimerge Pro",
 		"SubliminalCollaborator",
 		"Takana",
-		"Theme - Cobalt2",
 		"Vintage",
 		"Vintageous"
 	],

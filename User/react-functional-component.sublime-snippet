@@ -8,6 +8,8 @@ export const ${TM_FILENAME/(.+)\..+|.*/$1/:name} = () => {
 		$1
 	)
 }
+
+// Remember to import it using curly braces
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>rfunc</tabTrigger>
