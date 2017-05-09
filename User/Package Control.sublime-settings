@@ -16,7 +16,6 @@
 		"Stylus",
 		"Stylus Clean Completions",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint",
-		"Wallaby"
+		"SublimeLinter-contrib-eslint"
 	]
 }

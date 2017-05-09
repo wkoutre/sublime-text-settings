@@ -3,11 +3,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export const ${TM_FILENAME/(.+)\..+|.*/$1/:name} = () => {
+const ${TM_FILENAME/(.+)\..+|.*/$1/:name} = (props) => {
 	return (
 		$1
 	)
 }
+
+export default ${TM_FILENAME/(.+)\..+|.*/$1/:name};
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>rfunc</tabTrigger>

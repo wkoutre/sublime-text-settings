@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+border 1px solid red
+$1
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bred</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.stylus, source.css, source.scss, source.lessl</scope>
+</snippet>
