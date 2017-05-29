@@ -1,14 +1,14 @@
 {
 	"user":
 	{
-		"debug": false,
+		"debug": true,
 		"delay": 0.25,
 		"error_color": "D02000",
 		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
 		"gutter_theme_excludes":
 		[
 		],
-		"lint_mode": "manual",
+		"lint_mode": "background",
 		"linters":
 		{
 			"eslint":
@@ -22,7 +22,7 @@
 				]
 			}
 		},
-		"mark_style": "outline",
+		"mark_style": "squiggly underline",
 		"no_column_highlights_line": false,
 		"passive_warnings": false,
 		"paths":
@@ -64,6 +64,12 @@
 			"python django": "python",
 			"pythonimproved": "python"
 		},
+		"tooltip_fontsize": "1rem",
+		"tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme",
+		"tooltip_theme_excludes":
+		[
+		],
+		"tooltips": false,
 		"warning_color": "DDB700",
 		"wrap_find": true
 	}
