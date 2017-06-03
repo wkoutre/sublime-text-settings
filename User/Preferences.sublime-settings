@@ -44,7 +44,9 @@
 		"concat",
 		"online",
 		"workflow",
-		"workflows"
+		"workflows",
+		"Firebase",
+		"firebase"
 	],
 	"afn_insert_dimensions": false,
 	"auto_indent": true,
@@ -94,7 +96,7 @@
 		"_projects"
 	],
 	"font_face": "Consolas",
-	"font_size": 16,
+	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":

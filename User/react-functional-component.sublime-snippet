@@ -6,8 +6,8 @@ import PropTypes from 'prop-types';
 const ${TM_FILENAME/(.+)\..+|.*/$1/:name} = (props) => {
 	return (
 		$1
-	)
-}
+	);
+};
 
 export default ${TM_FILENAME/(.+)\..+|.*/$1/:name};
 ]]></content>

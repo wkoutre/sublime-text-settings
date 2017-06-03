@@ -8,7 +8,7 @@ const ${TM_FILENAME/(.+)\..+|.*/$1/:name} = (props) => {
 	return (
 
 	);
-}
+};
 
 export default ${TM_FILENAME/(.+)\..+|.*/$1/:name};
 

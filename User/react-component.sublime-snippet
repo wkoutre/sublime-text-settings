@@ -7,7 +7,7 @@ class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends React.Component {
 	render() {
 		return (
 			$1
-		)
+		);
 	}
 }
 
