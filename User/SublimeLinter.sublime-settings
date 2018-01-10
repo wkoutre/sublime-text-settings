@@ -8,7 +8,7 @@
 		"gutter_theme_excludes":
 		[
 		],
-		"lint_mode": "background",
+		"lint_mode": "load/save",
 		"linters":
 		{
 			"eslint":
@@ -20,6 +20,18 @@
 				"excludes":
 				[
 				]
+			},
+			"flow":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"flow-bin": null,
+				"show-all-errors": true
 			}
 		},
 		"mark_style": "squiggly underline",

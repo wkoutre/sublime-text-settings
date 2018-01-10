@@ -430,18 +430,7 @@
 				<string>#C594C5</string>
 			</dict>
 		</dict>
-		<dict>
-		<key>name</key>
-		<string>Wallaby.js</string>
-		<key>scope</key>
-		<string>wallaby</string>
-		<key>settings</key>
-		<dict>
-			<key>foreground</key>
-			<string>#ffffff</string>
-		</dict>
-	</dict>
-<dict>
+	<dict>
             <key>name</key>
             <string>SublimeLinter Error</string>
             <key>scope</key>
@@ -473,6 +462,6 @@
             </dict>
         </dict></array>
 	<key>uuid</key>
-	<string>f638b0dd-6217-472a-bb03-c722a37be916</string>
+	<string>21a3a5f5-e82f-48a8-bc8b-9aef307f6131</string>
 </dict>
 </plist>

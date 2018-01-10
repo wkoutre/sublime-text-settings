@@ -6,10 +6,13 @@
 	"installed_packages":
 	[
 		"Babel",
+		"BracketHighlighter",
 		"Color Highlighter",
 		"Comment-Snippets",
 		"Emmet",
 		"ESLint",
+		"File History",
+		"JsPrettier",
 		"Oceanic Next Color Scheme",
 		"Oceanic Next Italic Color Scheme",
 		"Package Control",

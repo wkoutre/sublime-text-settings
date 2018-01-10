@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+PropTypes.oneOfType([
+    PropTypes.array,
+    PropTypes.object,
+    PropTypes.number
+  ])
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ptstyle</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

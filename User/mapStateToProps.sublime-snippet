@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+const mapStateToProps = state => {
+    $2
+    return {
+
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>mstp</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
