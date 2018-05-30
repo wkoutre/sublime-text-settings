@@ -1,0 +1,44 @@
+{
+	"history":
+	[
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": "subtract",
+					"pattern": "s"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "reduce s"
+			},
+			"key": "14b7b3d8ab9677b0b2dfd7adb59d0b37",
+			"label": "reduce s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "reduce ",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "reduce "
+			},
+			"key": "01dfc2c37e60dededaa543d352d5c061",
+			"label": "reduce "
+		}
+	],
+	"last_command":
+	{
+		"args":
+		{
+			"text": "reduce ",
+			"threshold": 3
+		},
+		"command": "text_pastry_insert_text",
+		"text": "reduce "
+	}
+}

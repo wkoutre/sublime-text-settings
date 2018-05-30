@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { View, Text } from 'react-native';
 
-class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends React.Component {
+class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends React.PureComponent {
 	render() {
 		return (
 			$1
@@ -12,7 +12,7 @@ class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends React.Component {
 	}
 }
 
-export default ${TM_FILENAME/(.+)\..+|.*/$1/:name};
+export { ${TM_FILENAME/(.+)\..+|.*/$1/:name} };
 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

@@ -94,7 +94,28 @@
 		"onesignal",
 		"Refactored",
 		"Walkthrough",
-		"programmatically"
+		"programmatically",
+		"Inbox",
+		"Toors",
+		"guestlist",
+		"Homeowner's",
+		"dropdownalert",
+		"ios",
+		"twilio",
+		"bio",
+		"tappable",
+		"Kickwheel",
+		"camelcase",
+		"url",
+		"uuid",
+		"dotenv",
+		"gif",
+		"mp4",
+		"vid",
+		"rmmlib",
+		"dialogue",
+		"Signin",
+		"Signup"
 	],
 	"afn_insert_dimensions": false,
 	"auto_indent": true,
@@ -113,7 +134,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/SublimeLinter/Custom_Oceanic Next Italic (SL).tmTheme",
+	"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic Next (SL).tmTheme",
 	"detect_indentation": false,
 	"draw_centered": false,
 	"draw_minimap_border": true,
@@ -144,7 +165,7 @@
 		"_projects"
 	],
 	"font_face": "Consolas",
-	"font_size": 13,
+	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -162,6 +183,16 @@
 	],
 	"line_padding_bottom": 1.2,
 	"line_padding_top": 1.2,
+	"linters":
+	{
+		"eslint":
+		{
+			"env":
+			{
+				"PATH": "/usr/local/bin/"
+			}
+		}
+	},
 	"margin": 4,
 	"match_brackets": false,
 	"match_brackets_angle": false,
@@ -169,9 +200,10 @@
 	"match_brackets_content": false,
 	"match_brackets_square": false,
 	"match_tags": false,
-	"open_files_in_new_window": false,
+	"open_files_in_new_window": true,
 	"origami_auto_zoom_on_focus": false,
-	"original_color_scheme": "Packages/User/Color Highlighter/themes/Custom_Oceanic Next Italic (SL) (Colorcoded).tmTheme",
+	"original_color_scheme": "Packages/Color Scheme - Wallaby/Oceanic Next (SL).tmTheme",
+	"remember_full_screen": true,
 	"rulers":
 	[
 		80
@@ -179,7 +211,8 @@
 	"show_full_path": true,
 	"show_tab_close_buttons": false,
 	"spell_check": true,
-	"tab_size": 4,
+	"tab_size": 2,
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": false,
 	"use_simple_full_screen": false,

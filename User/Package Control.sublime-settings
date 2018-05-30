@@ -5,21 +5,34 @@
 	],
 	"installed_packages":
 	[
+		"Agila Theme",
+		"AutoFileName",
 		"Babel",
 		"BracketHighlighter",
 		"Color Highlighter",
+		"ColorPick",
 		"Comment-Snippets",
+		"Console Wrap",
 		"Emmet",
 		"ESLint",
 		"File History",
+		"Indent XML",
 		"JsPrettier",
+		"MarkdownLivePreview",
 		"Oceanic Next Color Scheme",
 		"Oceanic Next Italic Color Scheme",
 		"Package Control",
+		"PackageResourceViewer",
 		"PlainNotes",
+		"SideBarEnhancements",
 		"Stylus",
 		"Stylus Clean Completions",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint"
+		"SublimeLinter-eslint",
+		"Super Calculator",
+		"TerminalView",
+		"Text Pastry",
+		"Theme - Afterglow",
+		"TypeScript"
 	]
 }

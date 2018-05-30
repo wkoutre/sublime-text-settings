@@ -10,7 +10,7 @@ const ${TM_FILENAME/(.+)\..+|.*/$1/:name} = (props) => {
 	);
 };
 
-export default ${TM_FILENAME/(.+)\..+|.*/$1/:name};
+export { ${TM_FILENAME/(.+)\..+|.*/$1/:name} };
 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

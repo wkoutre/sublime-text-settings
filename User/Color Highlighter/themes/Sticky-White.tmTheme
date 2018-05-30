@@ -3,30 +3,30 @@
 	<key>author</key>
 	<string>Allen Bargi</string>
 	<key>name</key>
-	<string>Sticky-Yellow</string>
+	<string>Sticky-White</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#fef29f</string>
-				<key>foreground</key>
-				<string>#4f4711</string>
+				<string>#fbfafa</string>
 				<key>caret</key>
 				<string>#F92672</string>
-				<key>lineHighlight</key>
-				<string>#fef29f</string>
+				<key>foreground</key>
+				<string>#333333</string>
 				<key>gutterForeground</key>
-				<string>#4f471155</string>
+				<string>#33333322</string>
 				<key>invisibles</key>
-				<string>#4f471155</string>
+				<string>#33333355</string>
+				<key>lineHighlight</key>
+				<string>#fbfafa</string>
 				<key>selection</key>
-				<string>#4f471155</string>
+				<string>#33333355</string>
 				<key>selectionBorder</key>
-				<string>#4f4711AA</string>
+				<string>#333333AA</string>
 				<key>selectionForeground</key>
-				<string>#4f4711</string>
+				<string>#333333</string>
 			</dict>
 		</dict>
 		<dict>
@@ -48,7 +48,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#4f47110F</string>
+				<string>#3333330F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -103,7 +103,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4f471166</string>
+				<string>#33333366</string>
 			</dict>
 		</dict>
 		<dict>
@@ -113,10 +113,10 @@
 			<string>markup.strikethrough markup.raw, markup.strikethrough meta.link, markup.strikethrough meta.image, markup.strikethrough meta.image.reference, markup.strikethrough meta.image punctuation.definition, markup.strikethrough meta.image markup.underline.link.image, markup.strikethrough meta.image string.other.link.description</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#4f471166</string>
 				<key>background</key>
-				<string>#fef29f</string>
+				<string>#fbfafa</string>
+				<key>foreground</key>
+				<string>#33333366</string>
 			</dict>
 		</dict>
 		<dict>
@@ -129,7 +129,7 @@
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>#4f471199</string>
+				<string>#33333399</string>
 			</dict>
 		</dict>
 		<dict>
@@ -151,9 +151,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#4f471133</string>
+				<string>#33333333</string>
 				<key>foreground</key>
-				<string>#4f471133</string>
+				<string>#33333333</string>
 			</dict>
 		</dict>
 		<dict>
@@ -164,7 +164,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#4f471133</string>
+				<string>#33333333</string>
 			</dict>
 		</dict>
 		<dict>
@@ -190,7 +190,7 @@
 				<key>fontStyle</key>
 				<string>underline</string>
 				<key>foreground</key>
-				<string>#4f471166</string>
+				<string>#33333366</string>
 			</dict>
 		</dict>
 		<dict>
@@ -203,31 +203,18 @@
 				<key>fontStyle</key>
 				<string>underline bold</string>
 				<key>foreground</key>
-				<string>#4f471155</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Link Punctuations</string>
-			<key>scope</key>
-			<string>meta.link punctuation.definition</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>normal</string>
-				<key>foreground</key>
-				<string>#4f471155</string>
+				<string>#33333355</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Reference Definition</string>
 			<key>scope</key>
-			<string>meta.link.reference.def</string>
+			<string>meta.link.reference.def,meta.abbreviation.def</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#fff7ba</string>
+				<string>#fffefe</string>
 			</dict>
 		</dict>
 		<dict>
@@ -240,31 +227,31 @@
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>#4f4711</string>
+				<string>#333333</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Reference Definition Reference</string>
 			<key>scope</key>
-			<string>meta.link.reference.def constant.other.reference.link</string>
+			<string>meta.link.reference.def constant.other.reference.link,meta.abbreviation.def meta.abbreviation.constant</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#4f471155</string>
+				<string>#33333355</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Reference Definition Punctuation</string>
+			<string>Punctuations (link, link reference and abbr)</string>
 			<key>scope</key>
-			<string>meta.link.reference.def punctuation.separator.key-value</string>
+			<string>meta.link punctuation.definition,meta.link.reference.def punctuation.separator.key-value, punctuation.definition.abbreviation, punctuation.definition.attr_list.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4f471155</string>
+				<string>#33333355</string>
 			</dict>
 		</dict>
 		<dict>
@@ -274,10 +261,10 @@
 			<string>meta.image</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#403c2466</string>
 				<key>background</key>
-				<string>#feec7e</string>
+				<string>#f6f5f5</string>
+				<key>foreground</key>
+				<string>#1a1a1a66</string>
 			</dict>
 		</dict>
 		<dict>
@@ -288,11 +275,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#feec7e</string>
+				<string>#f6f5f5</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#403c24</string>
+				<string>#1a1a1a</string>
 			</dict>
 		</dict>
 		<dict>
@@ -303,9 +290,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#feec7e</string>
+				<string>#f6f5f5</string>
 				<key>foreground</key>
-				<string>#403c2466</string>
+				<string>#1a1a1a66</string>
 			</dict>
 		</dict>
 		<dict>
@@ -316,11 +303,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#feec7e</string>
+				<string>#f6f5f5</string>
 				<key>fontStyle</key>
 				<string>underline</string>
 				<key>foreground</key>
-				<string>#403c2466</string>
+				<string>#1a1a1a66</string>
 			</dict>
 		</dict>
 		<dict>
@@ -331,9 +318,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#feec7e</string>
+				<string>#f6f5f5</string>
 				<key>foreground</key>
-				<string>#403c2466</string>
+				<string>#1a1a1a66</string>
 			</dict>
 		</dict>
 		<dict>
@@ -346,23 +333,22 @@
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>#4f471155</string>
+				<string>#33333355</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Horizontal Rules</string>
 			<key>scope</key>
-			<string>meta.block-level meta.separator</string>
+			<string>meta.separator</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#4f471166</string>
+				<string>#33333366</string>
 				<key>foreground</key>
-				<string>#4f471166</string>
+				<string>#33333366</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Table</string>
@@ -371,10 +357,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#4f47111A</string>
+				<string>#3333331A</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Table Punctuations</string>
@@ -383,10 +368,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4f471155</string>
+				<string>#33333355</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Todo: Pending</string>
@@ -395,10 +379,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4f471199</string>
+				<string>#33333399</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Todo: Done</string>
@@ -410,7 +393,6 @@
 				<string>#1c801c</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Todo: Cancelled</string>
@@ -422,7 +404,6 @@
 				<string>#992222</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Link (Internal)</string>
@@ -436,7 +417,6 @@
 				<string>#8224b3</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Tag BG</string>
@@ -445,10 +425,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#feec7eCC</string>
+				<string>#f6f5f5CC</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Tag Title</string>
@@ -459,10 +438,9 @@
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>#4f4711</string>
+				<string>#333333</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Tag Punctuation</string>
@@ -470,15 +448,14 @@
 			<string>punctuation.definition.note_tag.markdown.note</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#f6f5f5CC</string>
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>#4f471155</string>
-				<key>background</key>
-				<string>#feec7eCC</string>
+				<string>#33333355</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Checkbox (Github style)</string>
@@ -923,10 +900,6 @@
 				<string>#B2D476</string>
 			</dict>
 		</dict>
-
-
-
-
 		<dict>
 			<key>name</key>
 			<string>Comment</string>
@@ -937,10 +910,9 @@
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>#4f471155</string>
+				<string>#33333355</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>HTML Tag Inline</string>
@@ -951,10 +923,9 @@
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>#4f471166</string>
+				<string>#33333366</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>HTML Tag Block</string>
@@ -965,10 +936,9 @@
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>#4f4711AA</string>
+				<string>#333333AA</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>HTML Tag Inline Punctuations</string>
@@ -979,10 +949,9 @@
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>#4f471166</string>
+				<string>#33333366</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>HTML Tag Block Punctuations</string>
@@ -993,10 +962,9 @@
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>#4f4711AA</string>
+				<string>#333333AA</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>HTML Tag Name</string>
@@ -1010,7 +978,6 @@
 				<string>#F92672</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>HTML Tag Attribute</string>
@@ -1024,7 +991,6 @@
 				<string>#F9267299</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>HTML Tag Attribute Values</string>
@@ -1035,10 +1001,9 @@
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>#4f4711</string>
+				<string>#333333</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Disabled Markdown</string>
@@ -1047,11 +1012,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#4f471133</string>
+				<string>#33333333</string>
 			</dict>
 		</dict>
-
-
 		<dict>
 			<key>name</key>
 			<string>Fenced Code Block with Syntax Highlighting</string>
@@ -1059,13 +1022,12 @@
 			<string>markup.raw.block.fenced meta.language</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#F8F8F2</string>
 				<key>background</key>
 				<string>#272822</string>
+				<key>foreground</key>
+				<string>#F8F8F2</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Fenced Code Block Punctuations and language name</string>
@@ -1077,11 +1039,6 @@
 				<string>#5e5e59</string>
 			</dict>
 		</dict>
-
-
-
-
-
 		<dict>
 			<key>name</key>
 			<string>CODE: Comment</string>
@@ -1115,7 +1072,6 @@
 				<string>#AE81FF</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>CODE: Built-in constant</string>
@@ -1353,7 +1309,6 @@
 				<string>#CFCFC2</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>CODE: diff.header</string>
@@ -1399,6 +1354,18 @@
 			</dict>
 		</dict>
 
+
+		<dict>
+			<key>name</key>
+			<string>temp</string>
+			<key>scope</key>
+			<string>meta.attr_list.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F92672</string>
+			</dict>
+		</dict>
 	<dict>
 <key>name</key>
 <string>CH_color</string>
@@ -1419,7 +1386,7 @@
 <key>settings</key>
 <dict>
 <key>background</key>
-<string>#fef2910FF</string>
+<string>#fbfafbFF</string>
 <key>foreground</key>
 <string>#143151ff</string>
 <key>caret</key>
@@ -1445,7 +1412,7 @@
 <key>settings</key>
 <dict>
 <key>background</key>
-<string>#fef2910FF</string>
+<string>#fbfafbFF</string>
 <key>foreground</key>
 <string>#f3f3f3ff</string>
 <key>caret</key>
