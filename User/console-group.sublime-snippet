@@ -2,7 +2,7 @@
 	<content><![CDATA[
 if (console.groupCollapsed) {
     console.groupCollapsed('$1');
-    
+      $2
     console.groupEnd('$1');    
 }
 

@@ -1,13 +1,17 @@
 <snippet>
 	<content><![CDATA[
-const mapStateToProps = ($1, props) => {
-	return {
-		
-	}
+const makeMapStateToProps = () => {
+  const mapStateToProps = (state, ownProps) => {
+    return {
+
+    }
+  }
+
+  return mapStateToProps;
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>mstat</tabTrigger>
+	<tabTrigger>mkstat</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>

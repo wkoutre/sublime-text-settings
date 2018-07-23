@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-const mapStateToProps = state => {
+const mapStateToProps = (storeState, ownProps) => {
     $2
     return {
 

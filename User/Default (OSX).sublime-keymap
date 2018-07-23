@@ -1,6 +1,7 @@
 [
-
-	{
+  { "keys": ["alt+up"], "command": "swap_line_up" },
+  { "keys": ["alt+down"], "command": "swap_line_down" },
+  {
 	    "keys": ["ctrl+e"],
 	    "command": "expand_abbreviation_by_tab",
 	    "context": [

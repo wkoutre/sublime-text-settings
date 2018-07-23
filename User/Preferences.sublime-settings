@@ -115,7 +115,10 @@
 		"rmmlib",
 		"dialogue",
 		"Signin",
-		"Signup"
+		"Signup",
+		"React's",
+		"Facebook's",
+		"Params"
 	],
 	"afn_insert_dimensions": false,
 	"auto_indent": true,
@@ -165,7 +168,7 @@
 		"_projects"
 	],
 	"font_face": "Consolas",
-	"font_size": 15,
+	"font_size": 16,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
