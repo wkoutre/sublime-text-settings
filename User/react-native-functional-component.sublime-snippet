@@ -3,7 +3,7 @@
 import * as React from 'react';
 import { View } from 'react-native';
 
-const ${TM_FILENAME/(.+)\..+|.*/$1/:name}: React.SFC<$2> = (props: any) => {
+const ${TM_FILENAME/(.+)\..+|.*/$1/:name}: React.SFC<$2> = (props) => {
 	return (
 
 	);

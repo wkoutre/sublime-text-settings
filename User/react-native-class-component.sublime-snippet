@@ -1,9 +1,25 @@
 <snippet>
 	<content><![CDATA[
-import React from 'react';
+import * as React from 'react';
 import { View } from 'react-native';
 
-class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends React.PureComponent {
+type AppProps = {
+  
+};
+
+type AppState = {
+  
+};
+
+class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends React.PureComponent<AppProps, AppState> {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+
+    };
+  }
+
 	render() {
 		return (
 			$1
