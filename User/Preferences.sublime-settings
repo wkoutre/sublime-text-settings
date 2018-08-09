@@ -118,7 +118,9 @@
 		"Signup",
 		"React's",
 		"Facebook's",
-		"Params"
+		"Params",
+		"tsx",
+		"animatable"
 	],
 	"afn_insert_dimensions": false,
 	"auto_indent": true,

@@ -1,10 +1,9 @@
 <snippet>
 	<content><![CDATA[
-import React from 'react';
-import PropTypes from 'prop-types';
-import { View, Text } from 'react-native';
+import * as React from 'react';
+import { View } from 'react-native';
 
-const ${TM_FILENAME/(.+)\..+|.*/$1/:name} = (props) => {
+const ${TM_FILENAME/(.+)\..+|.*/$1/:name}: React.SFC<$2> = (props: any) => {
 	return (
 
 	);
@@ -16,5 +15,5 @@ export { ${TM_FILENAME/(.+)\..+|.*/$1/:name} };
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>rnfunc</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.js</scope>
+	<scope>source.js, source.jsx, source.ts, source.tsx</scope>
 </snippet>
