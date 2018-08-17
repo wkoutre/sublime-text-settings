@@ -3,15 +3,15 @@
 import * as React from 'react';
 import { View } from 'react-native';
 
-type AppProps = {
+interface I${TM_FILENAME/(.+)\..+|.*/$1/:name}Props {
   
 };
 
-type AppState = {
+interface I${TM_FILENAME/(.+)\..+|.*/$1/:name}State {
   
 };
 
-class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends React.PureComponent<AppProps, AppState> {
+class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends React.PureComponent<I${TM_FILENAME/(.+)\..+|.*/$1/:name}Props, I${TM_FILENAME/(.+)\..+|.*/$1/:name}State> {
   constructor(props) {
     super(props);
 

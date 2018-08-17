@@ -22,4 +22,9 @@
             ]
         }
     ],
+  "linters": {
+    "tslint": {
+      "selector": "source.ts, source.tsx"
+    }
+  }
 }
