@@ -1,6 +1,6 @@
 // SublimeLinter Settings - User
 {
-  "delay": 0.5,
+  "delay": 2,
   "statusbar.counters_template": "",
   "styles": [
         {

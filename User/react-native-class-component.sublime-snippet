@@ -13,7 +13,7 @@ interface I${TM_FILENAME/(.+)\..+|.*/$1/:name}State {
 
 class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends React.PureComponent<I${TM_FILENAME/(.+)\..+|.*/$1/:name}Props, I${TM_FILENAME/(.+)\..+|.*/$1/:name}State> {
   constructor(props) {
-    super(props);
+    super(props: I${TM_FILENAME/(.+)\..+|.*/$1/:name}Props);
 
     this.state = {
 
