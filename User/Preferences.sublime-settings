@@ -125,7 +125,11 @@
 		"gradle",
 		"tslint",
 		"singleline",
-		"multiline"
+		"multiline",
+		"const",
+		"Zeplin",
+		"linters",
+		"statusbar"
 	],
 	"afn_insert_dimensions": false,
 	"auto_indent": true,

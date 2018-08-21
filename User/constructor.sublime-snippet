@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-constructor(props) {
+constructor(props: I${TM_FILENAME/(.+)\..+|.*/$1/:name}Props) {
     super(props);
     this.state = {
         $1
