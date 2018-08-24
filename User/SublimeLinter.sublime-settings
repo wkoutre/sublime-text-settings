@@ -24,7 +24,51 @@
     ],
   "linters": {
     "tslint": {
-      "selector": "source.ts, source.tsx"
-    }
+      "selector": "source.ts, source.tsx",
+      "styles": [
+        {
+            "mark_style": "outline",
+            "priority": 1,
+            "scope": "region.yellowish markup.changed.sublime_linter markup.warning.sublime_linter",
+            "icon": "dot",
+            "types": [
+                "warning"
+            ]
+        },
+        {
+            "mark_style": "outline",
+            "priority": 1,
+            "scope": "region.redish markup.deleted.sublime_linter markup.error.sublime_linter",
+            "icon": "dot",
+            "types": [
+                "error"
+            ]
+        }
+      ],
+    },
+    "eslint": {
+      // "selector": "source.js, source.jsx, source.ts, source.tsx",
+      "selector": "source.js, source.jsx",
+      "styles": [
+        {
+            "mark_style": "outline",
+            "priority": 1,
+            "scope": "region.orangish markup.changed.sublime_linter markup.warning.sublime_linter",
+            "icon": "circle",
+            "types": [
+                "warning"
+            ]
+        },
+        {
+            "mark_style": "outline",
+            "priority": 1,
+            "scope": "region.bluish markup.deleted.sublime_linter markup.error.sublime_linter",
+            "icon": "dot",
+            "types": [
+                "error"
+            ]
+        }
+      ],
+    },
   }
 }

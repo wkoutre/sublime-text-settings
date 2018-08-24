@@ -222,6 +222,7 @@
 	[
 		80
 	],
+	"show_definitions": false,
 	"show_full_path": true,
 	"show_tab_close_buttons": false,
 	"spell_check": true,
