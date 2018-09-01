@@ -27,7 +27,7 @@
       "selector": "source.ts, source.tsx",
       "styles": [
         {
-            "mark_style": "outline",
+            "mark_style": "fill",
             "priority": 1,
             "scope": "region.yellowish markup.changed.sublime_linter markup.warning.sublime_linter",
             "icon": "dot",
@@ -36,7 +36,7 @@
             ]
         },
         {
-            "mark_style": "outline",
+            "mark_style": "fill",
             "priority": 1,
             "scope": "region.redish markup.deleted.sublime_linter markup.error.sublime_linter",
             "icon": "dot",
