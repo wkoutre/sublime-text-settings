@@ -129,7 +129,14 @@
 		"const",
 		"Zeplin",
 		"linters",
-		"statusbar"
+		"statusbar",
+		"white45",
+		"subcard",
+		"Auth",
+		"white50",
+		"persistor",
+		"black40",
+		"wireframes"
 	],
 	"afn_insert_dimensions": false,
 	"auto_indent": true,

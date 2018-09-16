@@ -3,7 +3,7 @@
 if (console.groupCollapsed) {
     console.groupCollapsed('$1');
       $2
-    console.groupEnd('$1');    
+    console.groupEnd();    
 }
 
 ]]></content>
