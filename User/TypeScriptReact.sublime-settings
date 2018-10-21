@@ -2,7 +2,7 @@
 	"extensions":
 	[
 		"tsx",
-    "ts"
+		"ts"
 	],
-  "show_definitions": false
+	"show_definitions": false
 }

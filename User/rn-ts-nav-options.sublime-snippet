@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+static navigationOptions: NavigationScreenConfig<any> = ({
+    navigation,
+  }: NavigationScreenProps<any>) => {
+    $1
+  }
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>navoptions</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.tsx</scope>
+</snippet>

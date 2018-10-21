@@ -20,7 +20,7 @@ class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends React.PureComponent<I${TM_FILE
     };
   }
 
-	render(): JSX.Element {
+	render(): React.ReactNode {
 		return (
 			$1
 		);

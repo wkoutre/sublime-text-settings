@@ -136,7 +136,20 @@
 		"white50",
 		"persistor",
 		"black40",
-		"wireframes"
+		"wireframes",
+		"white238s",
+		"black19s",
+		"Gifs",
+		"180deg",
+		"0deg",
+		"typesafe",
+		"playlist",
+		"mpegurl",
+		"favorited",
+		"memoize",
+		"Roboto",
+		"Proxima",
+		"md5"
 	],
 	"afn_insert_dimensions": false,
 	"auto_indent": true,
@@ -193,6 +206,10 @@
 	[
 		"Vintage"
 	],
+	"ignored_words":
+	[
+		"gray204s"
+	],
 	"indent_guide_options":
 	[
 		"draw_normal",
@@ -237,6 +254,7 @@
 	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": false,
+	"typescript_auto_format": false,
 	"use_simple_full_screen": false,
 	"use_tab_stops": true,
 	"wide_caret": true,

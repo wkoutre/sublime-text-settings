@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-const mapStateToProps = (storeState, ownProps) => {
+const mapStateToProps = (storeState: IRootState, ownProps: I${TM_FILENAME/(.+)\..+|.*/$1/:name}Props) => {
     $2
     return {
 
